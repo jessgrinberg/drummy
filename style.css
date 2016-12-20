@@ -1,0 +1,10 @@
+.key {
+	transition: all 0.3s;
+	background: pink;
+	margin:10px; 
+	
+}
+
+.playing {
+	transform:scale(1.1);
+}
