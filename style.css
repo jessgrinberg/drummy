@@ -45,10 +45,14 @@ h1 {
 }
 
 
-@media (max-width: 644px) {
+@media (max-width: 717px) {
 	.flex-container {
-    	height: 28em;
+    	height: 30em;
     	margin: 3em auto;
+  	}
+  	.square {
+  		width: 2em;
+		height: 2em;
   	}
   	h1 {
 		font-size: 2em;
