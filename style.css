@@ -14,20 +14,22 @@ body {
 }
 
 .square {
-	border: 1px solid black;
+	border: 5px solid transparent;
 	width: 3em;
 	height: 3em;
 	margin: .5em;
 	display: inline-block;
 	border-radius: 0.3em;
+	background: #FF0066;
 }
 
 .key {
-	transition: all 0.3s;
+	transition: all 0.5s;
 }
 
 .playing {
 	transform:scale(1.1);
+	border: 5px solid #FFFF00;
 }
 
 h1, .sounds {
