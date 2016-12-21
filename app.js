@@ -5,6 +5,8 @@ function makeSound(e){
 	audio.currentTime = 0;
 	audio.play();
 	key.classList.add('playing');
+	const sounds =  document.querySelector('.sounds');
+	sounds.innerHTML = e.keyCode;
 }
 
 function removeTransition(e) {
