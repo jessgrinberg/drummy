@@ -1,3 +1,7 @@
+body {
+	font-family: 'Righteous', cursive;
+	}
+
 .flex-container {
 	display: flex;
 	justify-content: space-around;
@@ -30,9 +34,24 @@ h1, .sounds {
 	text-align: center;
 }
 
+h1 {
+	font-size: 4em;
+}
 
-@media (max-width: 641px) {
-  .flex-container {
-    height: 28em;
-  }
+.sounds {
+	font-size: 3em;
+}
+
+
+@media (max-width: 644px) {
+	.flex-container {
+    	height: 28em;
+    	margin: 3em auto;
+  	}
+  	h1 {
+		font-size: 2em;
+	}
+	.sounds {
+		font-size: 1.5em;
+	}
 }
